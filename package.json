@@ -1,0 +1,17 @@
+{
+  "name": "sample1",
+  "version": "1.0.0",
+  "description": "api test",
+  "main": "quick.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " node quickstart.js"
+  },
+  "author": "Sejal",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^3.3.2",
+    "libflacjs": "git+https://github.com/mmig/libflac.js.git",
+    "node-record-lpcm16": "^1.0.1"
+  }
+}
